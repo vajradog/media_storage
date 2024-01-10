@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
@@ -38,7 +38,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Docs <span>-&gt;</span>
+            Hi Docs <span>-&gt;</span>
           </h2>
           <p>Review documentation for Amplify's code-first DX (Gen 2).</p>
         </a>
@@ -76,11 +76,9 @@ export default function Home() {
           <h2>
             Data <span>-&gt;</span>
           </h2>
-          <p>
-            Fully-typed real-time API with NoSQL database.
-          </p>
+          <p>Fully-typed real-time API with NoSQL database.</p>
         </a>
       </div>
     </main>
-  )
+  );
 }
